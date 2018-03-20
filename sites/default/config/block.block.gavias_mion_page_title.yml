@@ -1,0 +1,20 @@
+uuid: 79687509-dd38-43b1-9cc4-57af9a590882
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_mion
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gavias_mion_page_title
+theme: gavias_mion
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

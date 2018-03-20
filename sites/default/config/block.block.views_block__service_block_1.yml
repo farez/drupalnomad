@@ -1,0 +1,44 @@
+uuid: 0bb642d3-f884-46fb-8bb6-5e899c697f54
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.service
+  module:
+    - block_visibility_groups
+    - gaviasthemer
+    - node
+    - views
+  theme:
+    - gavias_mion
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: X5ozHM3jpdl8ylcGcWsf0YC5lvyirJ__wMSgd4j_UtA
+id: views_block__service_block_1
+theme: gavias_mion
+region: sidebar_right
+weight: -19
+provider: null
+plugin: 'views_block:service-block_1'
+settings:
+  id: 'views_block:service-block_1'
+  label: services
+  provider: views
+  label_display: visible
+  views_label: services
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      service: service
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

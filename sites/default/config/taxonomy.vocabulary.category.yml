@@ -1,0 +1,11 @@
+uuid: 3ba41a63-374e-49c4-bf2b-c79c06264ffa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: G96Dasp_T5Si3K753L-2Ivz7Kt6Sln9l8BrZ2tudn78
+name: Category
+vid: category
+description: 'Category for article'
+hierarchy: 0
+weight: 0

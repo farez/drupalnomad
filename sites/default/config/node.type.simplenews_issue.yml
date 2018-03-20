@@ -1,0 +1,13 @@
+uuid: 5ad6e953-58fe-47f9-a872-34aa64512550
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3BiX0lHzQ8EyHRnO56OziilMZPNxJImXpSAQUTuALLU
+name: 'Newsletter Issue'
+type: simplenews_issue
+description: 'Use <em>Newsletter Issue</em> for newsletters.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

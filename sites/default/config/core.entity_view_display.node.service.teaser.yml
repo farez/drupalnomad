@@ -1,0 +1,34 @@
+uuid: 39f52807-b311-45b4-8315-b9e929472e51
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.service.body
+    - field.field.node.service.comment
+    - field.field.node.service.field_service_image
+    - node.type.service
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: al4uA-XNPbYWWkCRroucdZMa_fYsJFkSN_4BeMlH7Ms
+id: node.service.teaser
+targetEntityType: node
+bundle: service
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  comment: true
+  field_service_image: true

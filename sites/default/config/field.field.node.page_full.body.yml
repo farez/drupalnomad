@@ -1,0 +1,24 @@
+uuid: 4090f66e-4811-4b73-a4ae-88670cf68a16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.page_full
+  module:
+    - text
+_core:
+  default_config_hash: INXHs8wTNGFMIPzB_O_izkdetkeuXVLHLsfjsNMDeIk
+id: node.page_full.body
+field_name: body
+entity_type: node
+bundle: page_full
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: bc6384ce-a02e-4658-a139-935d4c8a4ffc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_mion
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gavias_mion_local_tasks
+theme: gavias_mion
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: e06207ee-b22a-490c-8fbb-186644f9257d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: b0d56VpogJXeyLCn28EqWMxUFSHtGrcCqUomvMwK7is
+name: height_auto
+label: 'Height Auto'
+effects:
+  52daf919-f393-4415-970a-1bb92e8a299f:
+    uuid: 52daf919-f393-4415-970a-1bb92e8a299f
+    id: image_scale
+    weight: 3
+    data:
+      width: 600
+      height: null
+      upscale: true

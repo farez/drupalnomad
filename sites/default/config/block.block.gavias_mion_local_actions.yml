@@ -1,0 +1,20 @@
+uuid: b4bd1816-78da-47e4-9713-e7289beec83a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_mion
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gavias_mion_local_actions
+theme: gavias_mion
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
