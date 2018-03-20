@@ -1,0 +1,163 @@
+/****/
+@media (max-width: 991px) {
+  .gavias-parallax {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+  }
+}
+.body-page {
+  background: #fff;
+}
+
+.container {
+  max-width: 100%;
+}
+.container .container {
+  width: 100% !important;
+}
+
+ul {
+  padding-left: 10px;
+}
+ul li {
+  list-style: inherit;
+}
+
+.nav-tabs, .block-builder-main ul, .topbar ul, ul.contact-info, ul.menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.node--view-mode-full p {
+  margin-bottom: 10px;
+}
+
+.sidebar nav.block {
+  display: table;
+}
+.sidebar nav.block ul.gva_menu > li {
+  width: 100%;
+}
+.sidebar nav.block ul.gva_menu > li > a {
+  padding: 10px 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 100%;
+}
+.sidebar nav.block ul.gva_menu .sub-menu {
+  border-top: none;
+  box-shadow: none;
+  display: block !important;
+  opacity: 1 !important;
+  position: static;
+  visibility: visible !important;
+}
+.sidebar nav.block ul.gva_menu .sub-menu a {
+  padding-right: 0 !important;
+  font-size: 11px;
+  color: #696969;
+  padding-left: 20px;
+}
+
+.node-detail.node--type-portfolio .owl-carousel .owl-nav .owl-prev {
+  left: 10px !important;
+}
+.node-detail.node--type-portfolio .owl-carousel .owl-nav .owl-next {
+  right: 10px !important;
+}
+
+#user-register-form {
+  padding: 20px 0;
+}
+#user-register-form .form-wrapper {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#user-register-form .form-wrapper#edit-actions {
+  border-bottom: none;
+}
+#user-register-form label {
+  width: 100%;
+}
+#user-register-form .form-item {
+  margin-bottom: 15px;
+}
+
+input[type*='submit'] {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "brandon";
+  background: #2196F3;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+input[type*='submit']:hover {
+  background: #fff;
+  color: #121212;
+  border-color: #2196F3;
+}
+
+body.path-user .help {
+  max-width: 800px;
+  margin: 0 auto;
+}
+body.path-user .help .container {
+  width: 100%;
+  padding: 0;
+}
+body.path-user #page-main-content > .main-content-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+body.path-user summary {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2196F3;
+}
+
+@media (max-width: 991px) {
+  .service-tab-vertical {
+    padding-left: 0 !important;
+    padding-top: 100px !important;
+  }
+  .service-tab-vertical .service-image, .service-tab-vertical .content {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .service-tab-vertical .owl-dots {
+    padding: 0 !important;
+    white-space: normal !important;
+  }
+  .service-tab-vertical .owl-dots .owl-dot {
+    margin-bottom: 10px;
+    padding: 10px 12px !important;
+    font-size: 11px !important;
+  }
+}
+.sidebar .small-list .view-list-item .views-field {
+  float: left;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+name: 'Features Mion'
+description: 'Mion Features - Import content type, field, view ... for Mion Theme'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_visibility_groups
+  - comment
+  - field
+  - file
+  - gaviasthemer
+  - image
+  - menu_ui
+  - node
+  - options
+  - path
+  - rdf
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+  - features
+  - config_update
+  - views_infinite_scroll
+  - gavias_view
+  - image_url_formatter
+version: 8.x-1.0
